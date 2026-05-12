@@ -1,0 +1,23 @@
+{
+    "name": "realtime-data-visualizer",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "echarts": "^5.5.2",
+        "pinia": "^3.0.4",
+        "vue": "^3.4.6"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.2",
+        "@vitejs/plugin-vue": "^4.3.1",
+        "typescript": "^5.6.2",
+        "vite": "^5.4.1",
+        "vue-tsc": "^3.2.8"
+    }
+}
